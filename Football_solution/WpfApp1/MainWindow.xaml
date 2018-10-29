@@ -1,0 +1,28 @@
+﻿<Window x:Class="WpfApp1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="40"/>
+            <RowDefinition Height="*"/>
+           
+        </Grid.RowDefinitions>
+        <Button Name="BtnLoadMinDiffTeams" Margin="0,5,0,0" Grid.Row="0" Width="200" Content="Load Teams with Min Difference" Command="{Binding Path=LoadCommand}" />
+        <ListView Name="FootbalTeamInfoGrid" Grid.Row="1"  Margin="0,20,0,0" ItemsSource="{Binding FootballTeams}"  >
+            <ListView.View>
+                <GridView x:Name="grdTest">
+                    <GridViewColumn Header="Team" DisplayMemberBinding="{Binding TeamName}"  Width="Auto"/>
+                    <GridViewColumn Header="For" DisplayMemberBinding="{Binding For}"  Width="80" />
+                    <GridViewColumn Header="Against" DisplayMemberBinding="{Binding Against}" Width="100" />
+                    <GridViewColumn Header="Difference" DisplayMemberBinding="{Binding Difference}" Width="80" />
+                    
+                </GridView>
+            </ListView.View>
+        </ListView>
+    </Grid>
+</Window>

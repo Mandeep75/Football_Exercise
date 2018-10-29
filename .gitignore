@@ -1,0 +1,11 @@
+Football_solution/BAL/obj/
+Football_solution/DAL/obj/
+Football_solution/IBAL/obj/IBAL.csproj.nuget.g.props
+Football_solution/IBAL/obj/IBAL.csproj.nuget.g.targets
+Football_solution/IBAL/obj/
+Football_solution/IDAL/obj/
+Football_solution/UnitTestBAL/obj/Debug/
+Football_solution/UnitTestProject1/obj/
+Football_solution/UnitTestProject2/obj/Debug/
+Football_solution/Utilities/obj/Debug/
+Football_solution/WpfApp1/obj/Debug/
