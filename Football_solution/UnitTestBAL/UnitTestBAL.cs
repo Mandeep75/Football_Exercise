@@ -9,7 +9,7 @@ using System.Collections.Generic;
 namespace UnitTestBAL
 {
     [TestClass]
-    public class UnitTest1
+    public class UnitTestBAL
     {
         [TestMethod]
         public void TestMethodTeamwithMinDifference()

@@ -7,7 +7,7 @@ using System.Configuration;
 namespace UnitTestProject2
 {
     [TestClass]
-    public class UnitTest1
+    public class UnitTestDAL
     {
 
         string DataStore { get; set; }

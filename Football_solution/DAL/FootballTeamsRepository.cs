@@ -62,15 +62,7 @@ namespace DAL
                 }
             }
 
-            return footballTeamData;
-
-            //return new List<FootballTeamsData>(){
-            //    new FootballTeamsData { TeamName="Arsenal", For=79,Against=36 },
-            //     new FootballTeamsData { TeamName="Liverpool", For=67,Against=30 },
-            //      new FootballTeamsData { TeamName="Manchester_U", For=87,Against=45 },
-            //       new FootballTeamsData { TeamName="Newcastle", For=74,Against=52 },
-            //       new FootballTeamsData { TeamName="Southampton", For=46,Against=54 }
-            //};
+            return footballTeamData;        
 
 
 
